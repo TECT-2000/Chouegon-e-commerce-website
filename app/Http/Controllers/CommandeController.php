@@ -1,0 +1,32 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class CommandeController extends Controller
+{
+    public function index(){
+        return view('Admin.Commande.commande');
+    }
+
+    public function create(){
+
+    }
+    public function store(Request $request){
+
+    }
+    public function show($id){
+
+    }
+
+    public function edit($id){
+
+    }
+    public function update($id){
+
+    }
+    public function destroy($id){
+
+    }
+}
